@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Guild {
+  id String @id @map("_id") @default(auto()) @db.ObjectId
+  guildID String
+  prefix String
+  botsFilter Boolean
+  fakeFilter Boolean
+}

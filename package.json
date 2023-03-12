@@ -1,0 +1,25 @@
+{
+  "name": "prisma-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "db:push": "prisma db push",
+    "start:prisma:studio": "prisma studio",
+    "start": "\"node .\" && \"start:prisma:studio\" && \"db:push\""
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "@prisma/client": "^3.12.0",
+    "chalk": "^4.1.1",
+    "discord-api-types": "^0.31.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "prisma": "^3.12.0"
+  }
+}
