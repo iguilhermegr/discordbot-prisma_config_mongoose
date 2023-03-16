@@ -24,8 +24,8 @@ yarn start
 <table align="center">
 	<tr>
 		<td>
-            <a href="https://github.com/GR-sh/teclado-morse-web/graphs/contributors">
-              <img src="https://contrib.rocks/image?repo=GR-sh/teclado-morse-web" />
+            <a href="https://github.com/guidsribeiro/discordbot-prisma_config_mongoose/graphs/contributors">
+              <img src="https://contrib.rocks/image?repo=guidsribeiro/discordbot-prisma_config_mongoose" />
             </a>
         </td>
 	</tr>
